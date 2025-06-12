@@ -1,0 +1,118 @@
+.body {
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.text-container {
+  width: 85%;
+  margin-inline: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 4rem;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.bold {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%); 
+}
+
+.text {
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.email {
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  width: 100%;
+}
+
+.email.error {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+.error-message {
+  display: none;
+  font-size: 12px;
+  text-align: center;
+  color: hsl(354, 100%, 66%);
+  margin-block: 0.5rem 1rem;
+}
+
+.button {
+  background-color: hsl(223, 87%, 63%);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 3rem;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.img-group {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.dashboard {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8rem;
+}
+
+.icon-groups {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.icon-group {
+  color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(0, 0%, 59%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.icon-group:hover {
+  color: #ffffff;
+  background-color: hsl(223, 87%, 63%);
+  cursor: pointer;
+}
+
+.copy-right {
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+}
